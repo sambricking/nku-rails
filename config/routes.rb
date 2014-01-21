@@ -1,6 +1,6 @@
 NkuRails::Application.routes.draw do
   resources :posts do
-    recources :comments
+    resources :comments
   end
  
   root to: "welcome#index"
